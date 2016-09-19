@@ -1,0 +1,101 @@
+/* ADD YOUR STYLES HERE */
+.first-table{
+    width: 100%;
+    font-size: 17px;
+    text-align: left;
+    height: 30px;
+    
+}
+.stupid-table{
+    border-bottom: 1px solid gray;
+}
+.sean{
+  
+  padding: 10px;
+}
+.another-table{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.second-table{
+    width: 33%;
+}
+.numbers-baby{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+   
+}
+.not-numbers{
+    position: relative;
+    text-align: center;
+    color: gray;
+    padding-bottom: 15px;
+}
+.cowbell{
+    font-family: monospace;
+    font-weight: 700;
+    font-size: 17px;
+    text-align: right;
+    padding-right: 10px;
+}
+    
+.more-numbers{
+    color: white;
+    background-color: #4099ff;
+    border-radius: 0px 5px 5px 0px; 
+    padding: 5px 0px 1px 5px;
+    
+}
+.bar-graph-one{
+    width: 100%;
+}
+.lightbox{
+    width: 98%;
+    height: 600px;
+    background-color: gray;
+    position: relative;
+}
+.hello-box{
+    margin: auto;
+    position: absolute;
+    width: 75%;
+    height: 45%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+.hello-text{
+    padding: 10px;
+}
+.close-button{
+    position: relative;
+    float: right;
+    width: 150px;
+    /*height: 40px;*/
+    background-color: red;
+    text-align: center;
+    border-radius: 7px;
+    opacity: .5;
+    /*color: white;*/
+    /*text-decoration: none;*/
+    padding-top: 12px;
+    padding-bottom: 12px;    
+    
+}
+.close-text{
+    font-size: 17px;
+    position: relative;
+    margin-top: 5px;
+    text-decoration: none; 
+    color: white;
+
+   
+}
+
+
+
