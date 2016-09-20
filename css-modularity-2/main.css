@@ -83,3 +83,52 @@
 .unordered > li :hover{
      color: green;
 }
+
+.more-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    list-style: none;
+
+/*set the content of table into rows and justify content*/
+}
+
+.more-flex span{
+    font-size: 20px;
+    color: gray; 
+    padding: 10px;
+    /*opacity: .4; */
+    /*border-bottom: 3px solid gray;*/
+    /*padding-bottom: 3px;*/
+    box-sizing: border-box;
+    
+}
+
+/*style the numbers*/
+.list-stuff-again{
+    font-size: 20px;
+    color: red; 
+    padding: 10px;
+    /*opacity: .4;*/
+    text-decoration: none;
+    
+/*style PREV and NEXT content*/
+}
+.list-stuff-not{
+    font-size: 20px;
+    color: red; 
+    padding: 10px;
+    opacity: .4;
+    text-decoration: none;
+}
+.first-bottom{
+    border-bottom: 3px solid red;
+    opacity: .4;
+    box-sizing: border-box;
+}
+.another-bottom{
+    border-bottom: 3px solid gray;
+    opacity: .4;
+    box-sizing: border-box;  
+}
