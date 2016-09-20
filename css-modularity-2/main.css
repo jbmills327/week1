@@ -132,3 +132,29 @@
     opacity: .4;
     box-sizing: border-box;  
 }
+.good-article{
+    overflow: hidden;
+    padding-left: 10px;
+}
+.timestamp{
+    font-size: 13px;
+    color: gray;
+    opacity: .7;
+}
+.anotherfloat{
+    float: left;
+    clear: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.more-article{
+    overflow: hidden;
+    padding-left: 10px;
+    position:relative;
+    padding-top: 48px;
+}
+.ugh-article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
