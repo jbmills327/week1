@@ -24,14 +24,14 @@
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
    
 }
 .not-numbers{
     position: relative;
     text-align: center;
     color: gray;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 .cowbell{
     font-family: monospace;
@@ -39,6 +39,7 @@
     font-size: 17px;
     text-align: right;
     padding-right: 10px;
+    white-space: nowrap;
 }
     
 .more-numbers{
@@ -93,9 +94,28 @@
     margin-top: 5px;
     text-decoration: none; 
     color: white;
-
-   
 }
+.first-picture{
+    float: left;
+    margin-right: 10px;
+    /*height: 200px;*/
+}
+.second-picture{
+    float: left;
+    margin-right: 10px;
+    height: 100px;
+}
+.third-picture{
+    float: left;
+    margin-right: 10px;
+    height: 500px;
+}
+.fourth-picture{
+    float: left;
+    margin-right: 10px;
+    height: 75px;
+}
+
 
 
 
