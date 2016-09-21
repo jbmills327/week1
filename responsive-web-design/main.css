@@ -1,0 +1,130 @@
+/*html{*/
+/*    height: 100%;*/
+/*    width: 100%;*/
+/*}*/
+body{
+    margin: 0;
+}
+/*full page landing page*/
+header{
+    background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-284668.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Red bar across tab for Nav*/
+nav{
+    margin-top: -1%;
+    width:100%;
+    height: auto;
+    background-color: #800000;
+    border: 1px solid black;
+    position: fixed;
+    /*box-sizing: border-box;*/
+}
+/*set nav links to flex and row*/
+.navigation{
+    position: relative;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+    align-items: baseline;
+}
+
+.jumps{
+    color: white;
+    text-decoration: none;
+    margin-top: -1%;
+}
+/*div box for motto*/
+.motto-holder{
+    width: 100vw;
+    height: auto;
+    background-color: #b3b3b3;
+    text-align: center;
+    box-sizing: border-box;
+}
+/*style motto*/
+.motto{
+    font-family: helvetica;
+    font-size: 65px;
+    color: #ff6600;
+    text-shadow: 1px 1px 1px #ffd633, 3px 3px 3px #ffe066, 5px 5px 3px #fff0b3, 7px 7px 3px black;
+    margin: 0;
+    padding: 20px;
+}
+
+#founder{
+    height: auto;
+    justify-content: center;
+    text-align: center;
+    background-image: url("https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-284668.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.founder-photo{
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px white;
+}
+.founder-name{
+    color: white;
+    font-size: 45px;
+    font-family: helvetica;
+    text-shadow: 2px 2px 2px #800000, 4px 4px 2px black;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    
+}
+/*adjust motto style for mobile devices*/
+@media(max-width: 415px){
+    .motto{
+    font-family: helvetica;
+    font-size: 2em;
+    color: #ffd11a; 
+    }
+}
+
+/*changes flex to column for mobile devices*/
+@media(max-width: 550px){
+    .navigation{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        color: white;
+        align-items: center;
+}
+/*adjust link text for mobile devices*/
+   .jumps{
+        color: white;
+        text-decoration: none;
+        font-size: 1em;
+        padding-top: 3px;
+}
+.founder-photo{
+    margin-top: 20px;
+    border-radius: 7px;
+    box-shadow: 0 0 20px white;
+    width: 97%;
+    height: auto;
+}
+.founder-name{
+    color: white;
+    font-size: 20px;
+    font-family: helvetica;
+    text-shadow: 2px 2px 2px #800000, 4px 4px 2px black;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    
+}
+}
